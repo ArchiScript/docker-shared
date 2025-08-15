@@ -6,8 +6,6 @@ services:
     environment:
       - MAX_CONCURRENT_SESSIONS=20
       - CONNECTION_TIMEOUT=60000
-    ports:
-      - "3000:3000"
     networks:
       - ht-net
     deploy:
